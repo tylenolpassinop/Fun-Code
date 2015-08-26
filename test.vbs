@@ -15,3 +15,8 @@ Set oShell = CreateObject("WScript.Shell")
 
 oShell.Run "%comspec% /c mkdir HAHAHAHHAHA;touch OOOOH.txt", , TRUE
 X=MsgBox("See that?",0+48,"SAY GOODBYE TO YOUR FILES")
+
+WScript.sleep 4000
+
+X=MsgBox("im turning off the computer",0+16,"By by")
+
